@@ -52,7 +52,7 @@ function App() {
         </div>
       </div>
       {/* Main Wrapper  */}
-        <div className="pl-28 p-7 flex flex-col main-wrapper xl:pl-32">
+        <div className="pl-28 p-7 flex flex-col main-wrapper xl:pl-32 w-full">
          <div className="nav-top nav-breadcrumb rounded-md ">
           <ol className=" flex justify-between">
             <li><a href=" # " className="text-gray-400 hover:text-gray-600">Perusahaan</a></li>
@@ -114,8 +114,53 @@ function App() {
             </div>
           {/* End Mitramas Info*/}
           <div className="flex flex-col">
-            <div className="bg-slate-500">...............</div>
+            <div className="bg-white shadow-lg rounded-md">
+              {/* Location Side */}
+              <span className="justify-between location-side flex p-5">
+                <h1>Lokasi</h1>
+                <span>Lihat semua</span>
+              </span>
+              <div className="grid grid-cols-1 gap-3 p-3 mb-4 xl:grid-cols-3">
+                {/* Building Side */}
+              <div className="bg-green-600 justify-between text-white card rounded-md">
+               <div className="flex wrap p-4">
+                <FaRegBuilding className="xl:text-5xl text-5xl"/>
+                <div className="flex flex-col ">
+                <span className="lo-text text-3xl text-end">20</span>
+                <span className="building-text">Induk</span>
+                </div>
+               </div>
+              </div>
+                {/* End Building Side */}
+                {/* Building Side */}
+              <div className="bg-green-600 justify-between text-white card rounded-md">
+               <div className="flex wrap p-4 ">
+                <FaRegBuilding className="xl:text-5xl text-5xl"/>
+                <div className="flex flex-col jusify-items-end">
+                <span className="lo-text text-3xl text-end">3</span>
+                <span className="building-text">Sub Lokasi Level 1</span>
+                </div>
+               </div>
+              </div>
+                {/* End Building Side */}
+                {/* Building Side */}
+              <div className="bg-green-600 justify-between text-white card rounded-md">
+               <div className="flex wrap p-4">
+                <FaRegBuilding className="xl:text-5xl text-5xl"/>
+                <div className="flex flex-col ">
+                <span className="lo-text text-3xl text-end">1</span>
+                <span className="building-text">Sub Lokasi Level 2</span>
+                </div>
+               </div>
+              </div>
+                {/* End Building Side */}
+                
+              </div>
+              {/* End Location Side */}
+            </div>
            <div className="grid grid-cols-2">
+            {/* Bank Akun */}
+            {/* End Bank Akun */}
             <div>...............</div>
             <div>...............</div>
             </div>
