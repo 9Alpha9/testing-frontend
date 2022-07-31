@@ -1,0 +1,27 @@
+.bg-container{
+    .background-mitramas{
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+    }
+    .logo-mitramas{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        top: -6rem;
+        margin: auto;
+        z-index: 2;
+        position: relative; 
+        height: 150px;
+    }
+}
+
+.mitramas-heading{
+    font-size: 25px;
+}
+
+.sub-mitramas{
+    font-size: 14px;
+}
