@@ -60,9 +60,9 @@ function App() {
           </ol>
           </div>
          {/* Container Page */}
-        <div className="grid grid-cols-1 gap-6 mt-10 xl:grid-cols-2 md:grid-cols-2">
+        <div className="flex flex-col gap-6 mt-10 xl:flex-row">
           {/* Mitramas Info */}
-          <div className="bg-white shadow-xl card rounded-md">
+          <div className="bg-white shadow-xl card rounded-md xl:w-6/12">
             <div className="mitramas-bg bg-container">
               <img className="background-mitramas rounded-tl-md rounded-tr-md" src={background} alt="Background" />
               <img className="logo-mitramas shadow-lg border-gray-500" src={logo} alt="Mitramas Logo" />
@@ -113,7 +113,7 @@ function App() {
            {/* End Web Status */}
             </div>
           {/* End Mitramas Info*/}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-full">
             <div className="bg-white shadow-lg rounded-md">
               {/* Location Side */}
               <span className="justify-between location-side flex p-5">
