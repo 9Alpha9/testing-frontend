@@ -60,9 +60,9 @@ function App() {
           </ol>
           </div>
          {/* Container Page */}
-        <div className="flex flex-col gap-6 mt-10 xl:flex-row">
+        <div className="flex flex-col gap-6 mt-10 xl:flex-row lg:flex-row">
           {/* Mitramas Info */}
-          <div className="bg-white shadow-xl card rounded-md xl:w-4/12">
+          <div className="bg-white shadow-xl card rounded-md xl:w-4/12 lg:w-6/12">
             <div className="mitramas-bg bg-container">
               <img className="background-mitramas rounded-tl-md rounded-tr-md" src={background} alt="Background" />
               <img className="logo-mitramas shadow-lg border-gray-500" src={logo} alt="Mitramas Logo" />
